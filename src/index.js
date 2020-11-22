@@ -4,7 +4,7 @@ const path = require('path')
 const app = express()
 
 //Settings
-app.set('port', 8000)
+app.set('port', process.env.PORT || 8000)
 
 //Motor de plantilla ejs
 app.set('view engine', 'ejs')
