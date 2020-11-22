@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node page</title>
+    <%- include("./partials/head.html") %>
+</head>
+<body>
+    <%- include("./partials/nav.html") %>
+    
+    <div class="d-flex justify-content-center align-items-center">
+        <img src="/img/pews-logo.png" alt="pews-logo" class="animated bounce">
+    </div>
+    
+    <div class="banner bg-dark">
+        <div class="row p-5">
+            <div class="col-lg-6 text-center">
+                <i class="fab fa-youtube fa-10x text-light"></i>
+            </div>
+            
+            
+            <div class="message d-flex justify-content-start col-lg-6" id="about">
+                <div class="text-center text-light pt-4">
+                    <h4>The most subscribed Youtuber</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi deleniti corrupti doloremque iste maiores veniam, iusto eaque cumque aspernatur. Earum placeat quisquam assumenda explicabo odit numquam necessitatibus consequuntur esse animi!</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <%- include ("partials/footer.html")%>
+
+    <%- include ("partials/bodyPie.html") %>
+</body>
+</html>

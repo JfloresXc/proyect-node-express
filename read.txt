@@ -1,0 +1,13 @@
+OBSERVACION #1
+"scripts": {
+    "start": "node src", //node src identifica un archivo 'index.js' y lo ejecuta
+    "dev": "nodemon src"//nodemon es un modulo instalado mediante 'npm i nodemon' para 
+                          en este caso facilitar no estar escribiendo en consola 'npm start' o
+                          'node src'  
+}
+
+OBSERVACION #2
+console.log(__dirname + '/views/index.html') nos da como resultado: 
+C:\Users\JOSE\Documents\Lenguajes\HTML\Pruebas\NodeJs\src/views/index.html
+Es entonces que llamamos al módulo path con el método 'join' para que combine las lineas oblicuas 
+sea el sistema operativo que sea 
